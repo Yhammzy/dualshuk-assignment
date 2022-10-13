@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dualshock</title>
+    <link rel="stylesheet" href="indx.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="containr">
+        <div class="navbar">
+            <img src="./img/images/logo.png" alt="#" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controller</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="./img/images/menu.png" alt="#" class="menu-icon" onclick="togglemenu()">
+        </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>PS4 V2 <br>Dualshock</h2>
+                    <h3>Wireless Controller For Playstation 4</h3>
+                    <p>(Compatible/Generic)</p>
+                    <h4>$32.50`8</h4>
+                    <button type="button"> buy now <img src="./img/images/arrow.png" alt=""></button>
+                    
+                </div>
+
+                <div class="col-2">
+                    <img src="./img/images/controller.png" alt="#" class="controllr">
+                    <div class="color-box"></div>
+                    <div class="add-btn">
+                        <img src="./img/images/add.png" alt="#">
+                        <p><small>Add to cart</small></p>
+                    </div>
+                </div>
+            </div>
+        <div class="social-links">
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-instagram"></i>
+        </div>
+    </div>
+   <SCript>
+
+    var menuList = document.getElementById("menuList");
+
+    menuList.style.maxHeight = "0px"
+
+    function togglemenu(){
+
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "130px"
+        }
+        else
+        {
+            menuList.style.maxHeight = "0px"
+        }
+
+    }
+
+   </SCript>
+</body>
+</html>
